@@ -1,0 +1,27 @@
+/*center top title of Homepage and change its color*/
+.HomeTitle {
+    font-weight: normal;
+    text-align: center;
+    color: white;
+  }
+  .comfort {
+    font-weight: normal;
+    text-align: center;
+    color: white;
+  }
+  /*adding background image to homepage*/
+  body {
+    background-image: url("images/neighborhood.jpg");
+  }
+  /*aligning button and adding color to the button box and text*/
+  button{
+    color: white;
+    background-color: black;
+    border:none;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top: 75%;
+    left: 50%;
+    padding: 20px 50px;
+    font-size: 25px;
+  }
