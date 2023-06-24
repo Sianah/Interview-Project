@@ -15,9 +15,12 @@
   }
   /*aligning button and adding color to the button box and text*/
   button{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     border:none;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
     position:absolute;
     transform: translate(-50%,-50%);
     top: 75%;
