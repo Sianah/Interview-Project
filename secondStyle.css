@@ -1,0 +1,13 @@
+.SecondPageTitle{
+    font-weight: normal;
+    text-align: center;
+    color: black;
+  }
+  .selectTown{
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+  }
+  body{
+    background-image: url(images/overheadView.jpg);
+  }
