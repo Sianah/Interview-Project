@@ -1,13 +1,32 @@
 .SecondPageTitle{
     font-weight: normal;
     text-align: center;
-    color: black;
+    color: #140505;
   }
   .selectTown{
     font-weight: normal;
     text-align: center;
     font-size: 25px;
   }
+ label{
+  display: inline-block;
+  transform: translate(312px, 158px);
+  font-size: 28px;
+  color:rgb(255,255,255);
+  font-weight: bold ;
+ }
+ input{
+  transform: translate(311px, 155px);
+  border-radius: 50px;
+  width:120px;
+  height:30px;
+ }
+ select{
+  transform: translate(312px, 156px);
+  border-radius: 50px;
+  width:120px;
+  height:30px;
+ }
  
   body{
     background-image: url(images/overheadView.jpg);

@@ -39,10 +39,10 @@ async function getLocationData(params){
 		const response = await fetch(url, options);
 		const result = await response.json();
 		console.log(result);
-		location_field.value = result.message;
-		crime_field.value = result.message;
-		pop_field.value = result.message;
-		education_field.value = result.message;
+		location_field.value = result.message; /*result.Population.value;*/
+		crime_field.value = result.message;/*result.Crime & Safety.description;*/
+		pop_field.value = result.message;/*result.MedianRent.value;*/
+		education_field.value = result.message;/*result.schools.PublicSchools;*/
 	} catch {
 		console.error(error);
 	}
