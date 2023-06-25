@@ -5,18 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomeHelper</title>
     <link rel="stylesheet" href="secondStyle.css" />
-    <script src="main.js" type="module"></script>
   </head>
   <body>
     <h1 class="SecondPageTitle"><u>Town Search</u></h1>
     <p class="selectTown">
       Please select which town you'd like to receive information for.
     </p>
-    <!--adding a textbox-->
-    <label for="streetAddress">Area Location</label>
-    <input type="text" name="txtAddress" id="streetAddress"/>
-    <button type="button" onclick="location.href='results.html'">
-      Continue
-    </button>
+    <form action="results.html" method="GET">
+      <!--adding a textbox-->
+      <label for="streetAddress">Area Location</label>
+      <input type="text" name="place" id="streetAddress" />
+      <label for="type">Address Type:</label>
+      <select id="type" name="type">
+        <option value="city">City</option>
+        <option value="neighborhood">Neighborhood</option>
+        <option value="town">Town</option>
+        <option value="zip">Zip</option>
+      </select>
+      <input type="submit" value="Continue" />
+    </form>
   </body>
 </html>
+<!--create form on input-->
